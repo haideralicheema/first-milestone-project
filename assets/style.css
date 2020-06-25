@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ----------------------------------- Colours 
+
+
+
+/* ----------------------------------- Navbar */
+
+.custom-nav {
+    background-color: #404040;
+    min-height: 75px;
+}
+
+.custom-nav-item {
+    text-decoration: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.custom-brand-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+}
+
+.custom-nav-item a {
+    text-decoration: none;
+    color: #e6aeae;
+}
+
+.custom-nav-item a:hover {
+    text-decoration: none;
+    color: #fff;
+}
