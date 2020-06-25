@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* ----------------------------------- Colours 
-
-
-
 /* ----------------------------------- Navbar */
 
 .custom-nav {
@@ -32,4 +28,36 @@
 .custom-nav-item a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+/* ----------------------------------- Callout */ 
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 70px;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+}
+
+.custom-callout-container {
+    background: url("images/yoga-workout.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height:100vh;
+}
+
+.displacement-space {
+    height:65vh;
 }
