@@ -15,3 +15,6 @@ Images:
 
 yoga-workout
 https://www.wallpaperflare.com/women-s-blue-tank-top-and-brown-yoga-pants-brunette-gym-clothes-wallpaper-pblpd/download/1920x1080
+
+alternate-barbell
+https://pixabay.com/photos/dumbbell-sport-weights-gym-1966247/

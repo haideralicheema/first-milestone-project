@@ -61,3 +61,21 @@
 .displacement-space {
     height:65vh;
 }
+
+/* ----------------------------------- Introduction */
+
+.introduction-text {
+    height: 50vh;
+}
+
+/* ----------------------------------- Footer */
+
+.custom-footer {
+    background: url("images/alternate-barbell.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height:100vh;
+}
