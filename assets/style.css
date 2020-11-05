@@ -35,6 +35,8 @@
 
 .jumbotron {
     background-color: transparent;
+    padding: 10px;
+    margin: 10px;
 }
 
 .jumbotron h1 {
@@ -49,6 +51,11 @@
     font-size: 30px;
 }
 
+.jumbotron > section {
+    padding: 0px;
+    margin: 0px;
+}
+
 .custom-callout-container {
     background: url("images/yoga-workout.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -56,22 +63,62 @@
     -o-background-size: cover;
     background-size: cover;
 
-    height:100vh;
+    height:90vh;
 }
 
-.displacement-space {
+/*.displacement-space {
     height:65vh;
-}
+}*/
 
 /* ----------------------------------- Introduction */
 
 .introduction-text {
-    height: 50vh;
+    min-height: 70vh;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    background-color: black;
+    color: white;
 }
+
+.intro-text-left {
+    padding-left: 180px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.intro-text-right {
+    padding-right: 180px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.intro-text-right > p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+}
+
+.intro-text-right > h2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 25px;
+    color: #f4bdd1;
+}
+
+.intro-text-left {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+}
+
+.intro-text-left > h2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 25px;
+    color: #f4bdd1;
+}
+
+
 
 /* ----------------------------------- Footer */
 
-.custom-footer {
+/*.custom-footer {
     background: url("images/alternate-barbell.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -79,4 +126,39 @@
     background-size: cover;
 
     height:100vh;
+} */
+
+.custom-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    height: 10vh;
+    background-color: #404040;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    color: #f4bdd1;
+}
+
+/*--CSS GRID--*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+  height: 100vh;
+}
+.grid-item {
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.intro-button {
+    display: inline;
+    padding: 10px;
+    margin: 10px 0px;
+    font-family: "PT Sans Narrow", sans-serif;
 }
